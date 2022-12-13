@@ -18,6 +18,9 @@ public:
     ~Empresa();
     void cargar();
     void totalVentaCombustible();
+    void cantidadPorCombustible();
+    void camionMasCombustible();
+    void cantCamionesSinDiesel();
 
 };
 

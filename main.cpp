@@ -33,7 +33,10 @@ int main() {
     Empresa empresa("Empresa", listaCamiones, listaCombustibles, listaEstaciones);
 
     empresa.cargar();
-
+    empresa.totalVentaCombustible();
+    empresa.cantidadPorCombustible();
+    empresa.camionMasCombustible();
+    empresa.cantCamionesSinDiesel();
 
     return 0;
 }
